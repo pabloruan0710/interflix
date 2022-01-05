@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		377464812785D5200009BD20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377464802785D5200009BD20 /* AppDelegate.swift */; };
-		377464832785D5200009BD20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377464822785D5200009BD20 /* SceneDelegate.swift */; };
 		377464852785D5200009BD20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377464842785D5200009BD20 /* ViewController.swift */; };
-		377464882785D5200009BD20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377464862785D5200009BD20 /* Main.storyboard */; };
 		3774648A2785D5220009BD20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377464892785D5220009BD20 /* Assets.xcassets */; };
 		3774648D2785D5220009BD20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3774648B2785D5220009BD20 /* LaunchScreen.storyboard */; };
 		377464982785D5220009BD20 /* InterFlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377464972785D5220009BD20 /* InterFlixTests.swift */; };
 		377464A32785D5230009BD20 /* InterFlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377464A22785D5230009BD20 /* InterFlixUITests.swift */; };
+		377464B62785DA500009BD20 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377464B52785DA500009BD20 /* InicioViewController.swift */; };
+		377464B82785DA680009BD20 /* PopularesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377464B72785DA680009BD20 /* PopularesViewController.swift */; };
+		377464BA2785DB6C0009BD20 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377464B92785DB6C0009BD20 /* APIRequest.swift */; };
+		377464BC2785E03F0009BD20 /* EndpointsIMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377464BB2785E03F0009BD20 /* EndpointsIMDB.swift */; };
+		377464BE2785E3430009BD20 /* FilmeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377464BD2785E3430009BD20 /* FilmeService.swift */; };
+		377464C02785E3CA0009BD20 /* Filme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377464BF2785E3CA0009BD20 /* Filme.swift */; };
+		377464C32785EB750009BD20 /* CategoriaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377464C12785EB750009BD20 /* CategoriaTableViewCell.swift */; };
+		377464C72785EE320009BD20 /* FIlmeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377464C52785EE320009BD20 /* FIlmeCollectionViewCell.swift */; };
+		377464CA2786266C0009BD20 /* RootTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377464C92786266C0009BD20 /* RootTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +44,7 @@
 /* Begin PBXFileReference section */
 		3774647D2785D5200009BD20 /* InterFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		377464802785D5200009BD20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		377464822785D5200009BD20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		377464842785D5200009BD20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		377464872785D5200009BD20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		377464892785D5220009BD20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3774648C2785D5220009BD20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3774648E2785D5220009BD20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +54,15 @@
 		3774649E2785D5230009BD20 /* InterFlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterFlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		377464A22785D5230009BD20 /* InterFlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterFlixUITests.swift; sourceTree = "<group>"; };
 		377464A42785D5230009BD20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377464B52785DA500009BD20 /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+		377464B72785DA680009BD20 /* PopularesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularesViewController.swift; sourceTree = "<group>"; };
+		377464B92785DB6C0009BD20 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		377464BB2785E03F0009BD20 /* EndpointsIMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointsIMDB.swift; sourceTree = "<group>"; };
+		377464BD2785E3430009BD20 /* FilmeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmeService.swift; sourceTree = "<group>"; };
+		377464BF2785E3CA0009BD20 /* Filme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filme.swift; sourceTree = "<group>"; };
+		377464C12785EB750009BD20 /* CategoriaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaTableViewCell.swift; sourceTree = "<group>"; };
+		377464C52785EE320009BD20 /* FIlmeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIlmeCollectionViewCell.swift; sourceTree = "<group>"; };
+		377464C92786266C0009BD20 /* RootTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +113,13 @@
 		3774647F2785D5200009BD20 /* InterFlix */ = {
 			isa = PBXGroup;
 			children = (
+				377464B42785DA160009BD20 /* Utils */,
+				377464B32785DA0F0009BD20 /* Models */,
+				377464B22785DA0A0009BD20 /* Views */,
+				377464B12785DA060009BD20 /* Services */,
+				377464B02785D9FB0009BD20 /* Controller */,
 				377464802785D5200009BD20 /* AppDelegate.swift */,
-				377464822785D5200009BD20 /* SceneDelegate.swift */,
 				377464842785D5200009BD20 /* ViewController.swift */,
-				377464862785D5200009BD20 /* Main.storyboard */,
 				377464892785D5220009BD20 /* Assets.xcassets */,
 				3774648B2785D5220009BD20 /* LaunchScreen.storyboard */,
 				3774648E2785D5220009BD20 /* Info.plist */,
@@ -126,6 +143,50 @@
 				377464A42785D5230009BD20 /* Info.plist */,
 			);
 			path = InterFlixUITests;
+			sourceTree = "<group>";
+		};
+		377464B02785D9FB0009BD20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				377464B52785DA500009BD20 /* InicioViewController.swift */,
+				377464B72785DA680009BD20 /* PopularesViewController.swift */,
+				377464C92786266C0009BD20 /* RootTabBarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		377464B12785DA060009BD20 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				377464BD2785E3430009BD20 /* FilmeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		377464B22785DA0A0009BD20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				377464C12785EB750009BD20 /* CategoriaTableViewCell.swift */,
+				377464C52785EE320009BD20 /* FIlmeCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		377464B32785DA0F0009BD20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				377464BF2785E3CA0009BD20 /* Filme.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		377464B42785DA160009BD20 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				377464B92785DB6C0009BD20 /* APIRequest.swift */,
+				377464BB2785E03F0009BD20 /* EndpointsIMDB.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +294,6 @@
 			files = (
 				3774648D2785D5220009BD20 /* LaunchScreen.storyboard in Resources */,
 				3774648A2785D5220009BD20 /* Assets.xcassets in Resources */,
-				377464882785D5200009BD20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377464C72785EE320009BD20 /* FIlmeCollectionViewCell.swift in Sources */,
+				377464BC2785E03F0009BD20 /* EndpointsIMDB.swift in Sources */,
+				377464C02785E3CA0009BD20 /* Filme.swift in Sources */,
 				377464852785D5200009BD20 /* ViewController.swift in Sources */,
+				377464CA2786266C0009BD20 /* RootTabBarViewController.swift in Sources */,
+				377464B82785DA680009BD20 /* PopularesViewController.swift in Sources */,
+				377464BE2785E3430009BD20 /* FilmeService.swift in Sources */,
+				377464C32785EB750009BD20 /* CategoriaTableViewCell.swift in Sources */,
 				377464812785D5200009BD20 /* AppDelegate.swift in Sources */,
-				377464832785D5200009BD20 /* SceneDelegate.swift in Sources */,
+				377464BA2785DB6C0009BD20 /* APIRequest.swift in Sources */,
+				377464B62785DA500009BD20 /* InicioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +364,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		377464862785D5200009BD20 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				377464872785D5200009BD20 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3774648B2785D5220009BD20 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,6 +498,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InterFlix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +517,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InterFlix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
